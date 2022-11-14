@@ -1,0 +1,244 @@
+html, body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+body{
+    background-color: #fbfbfd;
+}
+#navigation {margin: 0px;
+    top: 5px;}
+#navigation {
+    background-color: #333;
+    overflow: hidden;
+    transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  }
+#navigation ul{
+    text-align: center;
+  }
+#navigation ul li{
+    display: inline-block;
+}
+#navigation li{
+    display:inline;
+
+  }
+
+  /* Style the links inside thenav bar */
+  #navigation a {
+
+    text-decoration:none; 
+    padding:0px 20px;
+    text-decoration: none;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  #navigation a:hover {
+    color: #ddd;
+ 
+  }
+  
+  #navigation a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .ipad {
+    margin: 5px;
+    padding: 350px;
+    height: 0px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("/img/1.PNG");
+    background-color: #ffffff;
+   }
+
+   .text1 {
+    font-size: 24px;
+    position: relative;
+  left: 180px;
+bottom: 80px;
+text-align: center;
+   }
+
+   .iphone {
+    margin: 0px;
+    padding: 350px;
+    height: 0px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("/img/2.PNG");
+    background-color: #ffffff;
+   }
+   .text2 {
+    font-size: 24px;
+    position: relative;
+  left: 0px;
+bottom: 350px;
+text-align: center;
+   }
+   .mdkue {
+    margin: 0px;
+    padding: 250px;
+    height: 0px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("/img/3.PNG");
+    background-color: #ffffff;
+   }
+   .text3 {
+    text-align: center;
+    color: white;
+    position: relative;
+  left: 0px;
+top: 50px;
+text-align: center;
+   }
+   .section2 {
+  
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #fbfbfd;
+    padding: 10px;
+  }
+  .grid-item {
+ 
+  
+    background-color: #fbfbfd;
+    border: 1px solid  #fbfbfd;
+    font-size: 30px;
+
+  }
+  .ip14{
+    color: white;
+    font-size: 17px;
+    padding: 215px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/img/grid1.PNG");
+    background-color: #ffffff;
+  }
+  .tv4k{
+    font-size: 17px;
+    padding: 215px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/img/grid2.PNG");
+    background-color: #ffffff;
+  }
+  .padpro{
+    font-size: 17px;
+    padding: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/img/grid3.PNG");
+    background-color: #ffffff;
+  }
+  .watch{
+
+    font-size: 17px;
+    padding: 198px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/img/grid4.PNG");
+    background-color: #ffffff;
+  }
+  .watch2{
+
+    font-size: 17px;
+    padding: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/img/grid5.PNG");
+    background-color: #ffffff;
+  }
+  .smarter{
+   
+    font-size: 17px;
+    padding: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/img/grid6.PNG");
+    background-color: #ffffff;
+  }
+#footer{
+ padding: 20px;
+  background-color: rgb(255, 233, 233);
+  margin: auto;
+}
+.footext{
+  margin: auto;
+  font-size: 10px;
+  width: 70%;
+  text-align: left;
+}
+#footergrid {
+  width: 100%;
+  display: grid;
+  gap: 0;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  background-color: rgb(255, 233, 233);
+  padding: 10px;
+}
+.gitem {
+
+  padding-left: 0px;
+  font-size: 10px;
+  text-align: left;}
+
+  a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+hr{width: 70%;}
+.fe1{
+  padding-left: 210px;
+  font-size: 10px;
+}
+.fe2{
+  padding-left: 210px;
+  font-size: 10px;
+}
+h1{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+h2{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+h3{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+h4{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+h5{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+p{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+a{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
