@@ -1,4 +1,4 @@
-Ihtml, body {
+html, body {
   height: 100%;
 }
 h2{font-size: 32px;
@@ -16,7 +16,7 @@ body{
     background-color: #fbfbfd;
 }
 #navigation {margin: 0px;
-    top: 5px;}
+    }
 #navigation {
     background-color: #333;
     overflow: hidden;
@@ -106,12 +106,16 @@ text-align: center;
     background-color: #ffffff;
    }
    .text3 {
+    
     text-align: center;
     color: white;
     position: relative;
   left: 0px;
-top: 50px;
+top: 20px;
 text-align: center;
+   }
+   .text3 h2{
+    font-size: 25px;
    }
    .section2 {
   
